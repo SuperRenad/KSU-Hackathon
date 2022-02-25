@@ -249,7 +249,7 @@ body {
 #ConditionContainer {
     background-color: #911838;
     box-shadow: 0px 0px 40px 60px #911838;
-    padding-bottom: 5%;
+    padding-bottom: 5%
 }
 
 #ConditionContainer h1 {
@@ -349,7 +349,7 @@ Small devices (landscape phones, 576px and up) */
         text-decoration: none;
         color: white;
         margin-right: 2%;
-        font-size: 5%;
+        font-size: 15%;
     }
 }
 
