@@ -338,13 +338,17 @@ Small devices (landscape phones, 576px and up) */
         width: 90%;
     }
     #footer {
-        margin-top: 20%;
+        margin-top: 30%;
         background: linear-gradient(to bottom, #4c122f, #d63641);
+    }
+    #footer img {
+        max-height: 100px;
+        margin-left: -2em;
     }
     #footer a {
         text-decoration: none;
         color: white;
-        font-size: smaller;
+        font-size: 5%;
     }
 }
 
