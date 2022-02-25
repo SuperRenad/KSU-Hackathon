@@ -26,10 +26,6 @@ body {
     color: rgb(223, 32, 32);
 }
 
-#KSUlogo {
-    max-height: 70px;
-}
-
 
 /* Counter Section */
 
@@ -306,11 +302,7 @@ No media query for `xs` since this is the default in Bootstrap
 
 Small devices (landscape phones, 576px and up) */
 
-@media (max-width: 576px) {
-    #KSUlogo {
-        position: absolute;
-        visibility: hidden;
-    }
+@media (min-width: 576px) {
     #counterCard {
         margin-bottom: 10%;
     }
