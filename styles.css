@@ -306,7 +306,7 @@ No media query for `xs` since this is the default in Bootstrap
 
 Small devices (landscape phones, 576px and up) */
 
-@media (min-width: 376px) {
+@media (max-width: 576px) {
     #KSUlogo {
         position: absolute;
         visibility: hidden;
