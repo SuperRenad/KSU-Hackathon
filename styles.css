@@ -302,7 +302,7 @@ No media query for `xs` since this is the default in Bootstrap
 
 Small devices (landscape phones, 576px and up) */
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
     #counterCard {
         margin-bottom: 10%;
     }
@@ -340,6 +340,11 @@ Small devices (landscape phones, 576px and up) */
     #footer {
         margin-top: 20%;
         background: linear-gradient(to bottom, #4c122f, #d63641);
+    }
+    #footer a {
+        text-decoration: none;
+        color: white;
+        font-size: smaller;
     }
 }
 
