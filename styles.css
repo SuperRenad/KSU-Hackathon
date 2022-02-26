@@ -81,21 +81,6 @@ body {
     overflow: hidden;
 }
 
-#whatIsIt video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: 0;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-}
-
 #whatIsIt .container {
     position: relative;
     z-index: 2;
@@ -355,7 +340,6 @@ Small devices (landscape phones, 576px and up) */
         text-decoration: none;
         color: white;
         margin-right: 2%;
-        font-size: 5%;
     }
 }
 
