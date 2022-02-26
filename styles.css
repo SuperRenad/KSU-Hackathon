@@ -71,7 +71,10 @@ body {
 
 #whatIsIt {
     position: relative;
-    background-color: black;
+    background-color: rgb(32, 32, 32);
+    background-image: url("media/37_big.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 75vh;
     min-height: 25rem;
     width: 100%;
