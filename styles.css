@@ -16,7 +16,7 @@ body {
 }
 
 #navbarSupportedContent ul li a {
-    color: #801737;
+    color: #96252e;
     font-size: 22px;
     font-weight: 600;
     margin-left: 2em;
@@ -36,43 +36,40 @@ body {
 }
 
 #counterCard {
-    border-color: #801737;
+    border-color: #74564e;
     text-align: center;
     font-size: 1.7em;
     box-shadow: 11px 7px 16px #d8d2d4;
 }
 
 #counterHead {
-    background-color: #801737;
     font-weight: 500;
-    color: white;
+    color: #96252e;
 }
 
 #counterBody {
-    color: #801737;
-    font-weight: 900;
+    color: #96252e;
 }
 
 #signUp {
     color: white;
     font-size: 1.7em;
-    font-weight: 500;
     margin: 5% 0%;
     width: 25%;
     margin-right: 37.5%;
-    background-color: #801737;
+    background-color: #96252e;
 }
 
 #signUp:hover {
-    color: #801737;
-    border: #801737 solid;
+    color: #96252e;
+    border: #96252e solid;
     background-color: white;
 }
 
 #whatIsIt {
     position: relative;
     background-color: rgb(32, 32, 32);
-    background-image: url("media/37_big.jpg");
+    background-image: url("media/background.JPG");
     background-repeat: no-repeat;
     background-size: cover;
     height: 75vh;
@@ -175,12 +172,12 @@ body {
     margin-top: 15%;
     text-align: center;
     font-weight: 500;
-    color: #4c122f;
+    color: #96252e;
 }
 
 .wave {
     text-align: center;
-    background: radial-gradient(circle at 10px 15px, white 12px, transparent 13px) left 0 bottom -5px/40px 20px repeat-x, radial-gradient(circle at 10px -5px, transparent 12px, white 13px) left 0 bottom -10px/20px 20px repeat-x, linear-gradient(to bottom, #4c122f, #d63641);
+    background: radial-gradient(circle at 10px 15px, white 12px, transparent 13px) left 0 bottom -5px/40px 20px repeat-x, radial-gradient(circle at 10px -5px, transparent 12px, white 13px) left 0 bottom -10px/20px 20px repeat-x, linear-gradient(to bottom, #96252e, #d6cdce);
     padding: 40px 0;
     position: relative;
 }
@@ -217,7 +214,7 @@ body {
     border: none;
     padding: 2%;
     box-shadow: 0px 5px 11px rgb(175, 173, 173);
-    color: #4c122f;
+    color: #96252e;
     font-weight: 700;
     font-size: large;
     width: 55%;
@@ -235,8 +232,8 @@ body {
 /* conditions section */
 
 #ConditionContainer {
-    background-color: #911838;
-    box-shadow: 0px 0px 40px 60px #911838;
+    background-color: #96252e;
+    box-shadow: 0px 0px 40px 60px #96252e;
     padding-bottom: 5%
 }
 
@@ -250,7 +247,7 @@ body {
     text-align: center;
     background-color: rgb(248, 242, 242);
     box-shadow: 0px 7px 16px rgb(161, 151, 151);
-    color: #4c122f;
+    color: #96252e;
     font-size: 1.75em;
     font-weight: 500;
     margin-bottom: 3%;
