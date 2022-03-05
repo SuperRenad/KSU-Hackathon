@@ -68,8 +68,7 @@ body {
 
 #whatIsIt {
     position: relative;
-    background-color: rgb(32, 32, 32);
-    background-image: url("media/background.JPG");
+    background: linear-gradient(to bottom, #4c122f, #d63641);
     background-repeat: no-repeat;
     background-size: cover;
     height: 75vh;
@@ -177,7 +176,7 @@ body {
 
 .wave {
     text-align: center;
-    background: radial-gradient(circle at 10px 15px, white 12px, transparent 13px) left 0 bottom -5px/40px 20px repeat-x, radial-gradient(circle at 10px -5px, transparent 12px, white 13px) left 0 bottom -10px/20px 20px repeat-x, linear-gradient(to bottom, #96252e, #d6cdce);
+    background: radial-gradient(circle at 10px 15px, white 12px, transparent 13px) left 0 bottom -5px/40px 20px repeat-x, radial-gradient(circle at 10px -5px, transparent 12px, white 13px) left 0 bottom -10px/20px 20px repeat-x, linear-gradient(to bottom, #4c122f, #d63641);
     padding: 40px 0;
     position: relative;
 }
@@ -214,7 +213,7 @@ body {
     border: none;
     padding: 2%;
     box-shadow: 0px 5px 11px rgb(175, 173, 173);
-    color: #96252e;
+    color: #b2253e;
     font-weight: 700;
     font-size: large;
     width: 55%;
@@ -232,8 +231,6 @@ body {
 /* conditions section */
 
 #ConditionContainer {
-    background-color: #96252e;
-    box-shadow: 0px 0px 40px 60px #96252e;
     padding-bottom: 5%
 }
 
@@ -273,6 +270,103 @@ body {
 #footer a:hover {
     text-decoration: none;
     color: #656565;
+}
+
+
+/* partners */
+
+#partners {
+    margin-top: 10%;
+}
+
+#partners h1 {
+    text-align: center;
+    color: #96252e;
+    font-weight: 700;
+}
+
+#golden {
+    margin: 5% 10%;
+    font-weight: 900;
+    box-shadow: 3px 3px 15px#a8a8a8;
+    border-radius: 5%;
+    color: #801d25;
+    padding: 0% 0%;
+}
+
+#golden h2 {
+    margin-top: 45%;
+    margin-right: 15%;
+    font-weight: 600;
+    font-size: 2.5vw;
+}
+
+#golden img {
+    width: 90%;
+    margin: 10% 0%;
+    font-weight: 600;
+}
+
+#Tech {
+    margin: 5% 10%;
+    box-shadow: 3px 3px 15px#a8a8a8;
+    border-radius: 5%;
+    color: #801d25;
+    padding: 0% 0%;
+}
+
+#Tech h2 {
+    margin-top: 31%;
+    margin-right: 15%;
+    font-weight: 600;
+    font-size: 1.9vw;
+}
+
+#Tech img {
+    width: 50%;
+    margin: 7% 15% 7% 0%;
+    font-weight: 600;
+}
+
+#consultent {
+    margin: 5% 10%;
+    box-shadow: 3px 3px 15px#a8a8a8;
+    border-radius: 5%;
+    color: #801d25;
+    padding: 0% 0%;
+}
+
+#consultent h2 {
+    margin-top: 35%;
+    margin-right: 15%;
+    font-weight: 600;
+    font-size: 1.9vw;
+}
+
+#consultent img {
+    width: 50%;
+    margin: 7% 10% 7% 0%;
+    font-weight: 600;
+}
+
+#mediaP {
+    margin: 5% 10%;
+    box-shadow: 3px 3px 15px#a8a8a8;
+    border-radius: 5%;
+    color: #801d25;
+}
+
+#mediaP h2 {
+    margin-top: 35%;
+    margin-right: 15%;
+    font-weight: 600;
+    font-size: 1.9vw;
+}
+
+#mediaP img {
+    width: 30%;
+    margin: 7% 27% 7% 0%;
+    font-weight: 600;
 }
 
 
@@ -350,8 +444,9 @@ Small devices (landscape phones, 576px and up) */
         width: 90%;
     }
     #footer {
-        margin-top: 30%;
+        margin-top: 10%;
     }
+    /* partners */
     #partners {
         margin-top: 10%;
     }
@@ -361,47 +456,79 @@ Small devices (landscape phones, 576px and up) */
         font-weight: 700;
     }
     #golden {
-        margin: 15% 0%;
+        margin: 5% 10%;
         font-weight: 900;
         box-shadow: 3px 3px 15px#a8a8a8;
         border-radius: 5%;
         color: #801d25;
-        padding: 10% 0%;
+        padding: 2% 0%;
     }
     #golden h2 {
-        margin-top: 18%;
+        margin-top: 47%;
+        margin-right: 1%;
+        font-weight: 600;
+        font-size: 18px;
+        width: max-content;
+    }
+    #golden img {
+        width: 100%;
+        margin: 10% 0%;
         font-weight: 600;
     }
     #Tech {
-        margin: 15% 0%;
+        margin: 5% 10%;
         box-shadow: 3px 3px 15px#a8a8a8;
         border-radius: 5%;
         color: #801d25;
-        padding: 10% 0%;
+        padding: 2% 0%;
     }
     #Tech h2 {
-        margin-top: 20%;
+        margin-top: 35%;
+        margin-right: 1%;
+        font-weight: 600;
+        font-size: 16px;
+        width: max-content;
+    }
+    #Tech img {
+        width: 60%;
+        margin: 7% 15% 7% 0%;
         font-weight: 600;
     }
     #consultent {
-        margin: 15% 0%;
+        margin: 5% 10%;
         box-shadow: 3px 3px 15px#a8a8a8;
         border-radius: 5%;
         color: #801d25;
-        padding: 10% 0%;
+        padding: 2% 0%;
     }
     #consultent h2 {
-        margin-top: 30%;
+        margin-top: 35%;
+        margin-right: 1%;
+        font-weight: 600;
+        font-size: 16px;
+        width: max-content;
+    }
+    #consultent img {
+        width: 60%;
+        margin: 7% 10% 7% 0%;
         font-weight: 600;
     }
     #mediaP {
-        margin: 15% 0%;
+        margin: 5% 10%;
         box-shadow: 3px 3px 15px#a8a8a8;
         border-radius: 5%;
         color: #801d25;
     }
     #mediaP h2 {
-        margin-top: 70%;
+        margin-top: 47%;
+        margin-right: 1%;
+        font-weight: 600;
+        font-size: 16px;
+        width: max-content;
+    }
+    #mediaP img {
+        width: 40%;
+        margin: 7% 27% 7% 0%;
         font-weight: 600;
     }
 }
