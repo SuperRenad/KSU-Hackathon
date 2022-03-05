@@ -68,13 +68,26 @@ body {
 
 #whatIsIt {
     position: relative;
-    background: linear-gradient(to bottom, #4c122f, #d63641);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: black;
     height: 75vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
+}
+
+#whatIsIt video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
 }
 
 #whatIsIt .container {
@@ -209,7 +222,7 @@ body {
 
 #tracksCards {
     text-align: center;
-    background-color: #4b030738;
+    background-color: #a7a6a62c;
     border: none;
     padding: 2%;
     box-shadow: 0px 5px 11px rgb(175, 173, 173);
@@ -242,7 +255,7 @@ body {
 
 #Condition {
     text-align: center;
-    background-color: rgb(248, 242, 242);
+    background-color: rgb(236, 236, 236);
     box-shadow: 0px 7px 16px rgb(161, 151, 151);
     color: #96252e;
     font-size: 1.75em;
@@ -413,7 +426,6 @@ Small devices (landscape phones, 576px and up) */
     }
     #tracksCards {
         text-align: center;
-        background-color: #4b030738;
         border: none;
         padding: 2%;
         box-shadow: 0px 5px 11px rgb(175, 173, 173);
@@ -434,7 +446,6 @@ Small devices (landscape phones, 576px and up) */
     }
     #Condition {
         text-align: right;
-        background-color: rgb(248, 242, 242);
         box-shadow: 0px 7px 16px rgb(161, 151, 151);
         color: #801d25;
         font-size: 1em;
@@ -464,11 +475,12 @@ Small devices (landscape phones, 576px and up) */
         padding: 2% 0%;
     }
     #golden h2 {
-        margin-top: 47%;
+        margin-top: 30%;
         margin-right: 1%;
         font-weight: 600;
         font-size: 18px;
-        width: max-content;
+        text-align: center;
+        max-width: max-content;
     }
     #golden img {
         width: 100%;
@@ -483,11 +495,12 @@ Small devices (landscape phones, 576px and up) */
         padding: 2% 0%;
     }
     #Tech h2 {
-        margin-top: 35%;
+        margin-top: 20%;
         margin-right: 1%;
         font-weight: 600;
+        text-align: center;
         font-size: 16px;
-        width: max-content;
+        max-width: max-content;
     }
     #Tech img {
         width: 60%;
@@ -502,11 +515,12 @@ Small devices (landscape phones, 576px and up) */
         padding: 2% 0%;
     }
     #consultent h2 {
-        margin-top: 35%;
+        margin-top: 20%;
         margin-right: 1%;
         font-weight: 600;
+        text-align: center;
         font-size: 16px;
-        width: max-content;
+        max-width: max-content;
     }
     #consultent img {
         width: 60%;
@@ -520,11 +534,12 @@ Small devices (landscape phones, 576px and up) */
         color: #801d25;
     }
     #mediaP h2 {
-        margin-top: 47%;
+        margin-top: 20%;
         margin-right: 1%;
         font-weight: 600;
+        text-align: center;
         font-size: 16px;
-        width: max-content;
+        max-width: max-content;
     }
     #mediaP img {
         width: 40%;
