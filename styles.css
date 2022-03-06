@@ -26,6 +26,13 @@ body {
     color: rgb(223, 32, 32);
 }
 
+#messenger {
+    position: fixed;
+    z-index: 99;
+    margin-top: 100%;
+    margin-right: 2%;
+}
+
 
 /* Counter Section */
 
