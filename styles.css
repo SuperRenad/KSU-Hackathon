@@ -29,7 +29,7 @@ body {
 #messenger {
     position: fixed;
     z-index: 99;
-    margin-top: 140%;
+    margin-bottom: 2%;
     margin-right: 2%;
 }
 
