@@ -28,10 +28,14 @@ body {
 
 #messenger {
     position: fixed;
-    width: 10%;
+    width: auto;
     z-index: 99;
     bottom: 2%;
     right: 2%;
+}
+
+#messenger:active {
+    transform: scale(0.9)
 }
 
 
@@ -548,6 +552,16 @@ Small devices (landscape phones, 576px and up) */
         width: 40%;
         margin: 7% 27% 7% 0%;
         font-weight: 600;
+    }
+    #messenger {
+        position: fixed;
+        width: 11%;
+        z-index: 99;
+        bottom: 2%;
+        right: 2%;
+    }
+    #messenger:active {
+        transform: scale(0.9)
     }
 }
 
